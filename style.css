@@ -2,3 +2,47 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* shared style  */
+.primary-text{
+    font-family: "Lato", serif;
+}
+
+.primary-description{
+   font-size: 16px;
+   font-weight: 400;
+   margin: 20px 0;
+   color:rgba(39, 39, 39, 0.6)
+}
+
+.btn-primary{
+    padding: 15px 30px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.1);
+    padding: 20px 120px 0 120px;
+}
+
+.header-container h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.header-image img{
+    height: 400px;
+}
