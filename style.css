@@ -84,7 +84,7 @@ main {
 
 #flower3 img {
   width: 200px;
-  background: rgba(5, 151, 160, 0.15);
+  background: rgba(71, 125, 17, 0.15);
   padding: 70px 50px 0 50px;
   border-radius: 300px 300px 0px 0px;
 }
@@ -169,4 +169,46 @@ footer {
 
 span {
   color: rgb(229, 84, 115);
+}
+
+/* Responsive section  */
+@media screen and (max-width: 576px) {
+  .header-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .header-container h1 {
+    font-size: 1.3rem;
+  }
+  main {
+    padding: 20px;
+  }
+  .flower-container {
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 30px;
+  }
+
+  .callout-container {
+    gap: 40px;
+    padding: 30px;
+  }
+
+  .hot-deal-container {
+    flex-direction: column-reverse;
+  }
+  .insta-image {
+    flex-wrap: wrap;
+  }
+  .insta-image img {
+    width: 150px;
+  }
+
+  .latest-deal-container {
+    padding: 20px;
+  }
+  .latest-deal-container p {
+    padding: 10px;
+  }
 }
